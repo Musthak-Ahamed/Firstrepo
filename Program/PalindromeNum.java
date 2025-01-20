@@ -9,7 +9,7 @@ public class PalindromeNum{
       sum = (sum*10)+rem;
       temp = temp/10;
     }
-    if(temp == num){
+    if(num == sum){
       System.out.println("palindrome Number");
   }else{
       System.out.println("Not palindrome Number");
