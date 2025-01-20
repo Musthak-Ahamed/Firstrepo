@@ -3,6 +3,7 @@ public class PalindromeNum{
     int temp,rem,sum;
     int num = 454;
     temp = num;
+    sum = 0;
     while(temp>0){
       rem = temp%10;
       sum = (sum*10)+rem;
