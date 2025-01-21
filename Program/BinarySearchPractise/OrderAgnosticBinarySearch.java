@@ -24,13 +24,13 @@ public class OrderAgnosticBinarySearch{
         return mid;
       }
       if(isAsc == true){
-        if(target < arr[mid]{
+        if(target < arr[mid]){
           start = mid+1;
      }else{
           end = mid-1;
         }
   } else{
-        if(target > arr[mid]{
+        if(target > arr[mid]){
           end = mid-1;
 }else{
           start = mid+1;
